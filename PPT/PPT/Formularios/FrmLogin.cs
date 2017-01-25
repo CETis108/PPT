@@ -21,5 +21,15 @@ namespace PPT.Formularios
             FrmMenu menu = new FrmMenu();
             menu.Show();
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
