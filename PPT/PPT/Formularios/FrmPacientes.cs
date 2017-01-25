@@ -15,5 +15,15 @@ namespace PPT.Formularios
         {
             InitializeComponent();
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbTodos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
