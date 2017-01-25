@@ -49,7 +49,7 @@
             this.btnEjercicios});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(40, 487);
+            this.toolStrip1.Size = new System.Drawing.Size(25, 396);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -59,7 +59,7 @@
             this.btnPacientes.Image = ((System.Drawing.Image)(resources.GetObject("btnPacientes.Image")));
             this.btnPacientes.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPacientes.Name = "btnPacientes";
-            this.btnPacientes.Size = new System.Drawing.Size(37, 24);
+            this.btnPacientes.Size = new System.Drawing.Size(22, 24);
             this.btnPacientes.Text = "Pacientes";
             this.btnPacientes.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnPacientes.Click += new System.EventHandler(this.btnPacientes_Click);
@@ -70,7 +70,7 @@
             this.btnPadecimientos.Image = ((System.Drawing.Image)(resources.GetObject("btnPadecimientos.Image")));
             this.btnPadecimientos.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPadecimientos.Name = "btnPadecimientos";
-            this.btnPadecimientos.Size = new System.Drawing.Size(37, 24);
+            this.btnPadecimientos.Size = new System.Drawing.Size(22, 24);
             this.btnPadecimientos.Text = "Padecimientos";
             this.btnPadecimientos.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
@@ -80,7 +80,7 @@
             this.btnCalendario.Image = ((System.Drawing.Image)(resources.GetObject("btnCalendario.Image")));
             this.btnCalendario.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCalendario.Name = "btnCalendario";
-            this.btnCalendario.Size = new System.Drawing.Size(37, 24);
+            this.btnCalendario.Size = new System.Drawing.Size(22, 24);
             this.btnCalendario.Text = "Calendario";
             this.btnCalendario.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
@@ -90,19 +90,20 @@
             this.btnEjercicios.Image = ((System.Drawing.Image)(resources.GetObject("btnEjercicios.Image")));
             this.btnEjercicios.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEjercicios.Name = "btnEjercicios";
-            this.btnEjercicios.Size = new System.Drawing.Size(37, 24);
+            this.btnEjercicios.Size = new System.Drawing.Size(22, 24);
             this.btnEjercicios.Text = "Ejercicios";
             this.btnEjercicios.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
             // FrmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 487);
+            this.ClientSize = new System.Drawing.Size(554, 396);
             this.Controls.Add(this.toolStrip1);
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmMenu";
-            this.Text = "FrmMenu";
+            this.Text = "Menu";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
