@@ -9,17 +9,11 @@ using System.Windows.Forms;
 
 namespace PPT.Formularios
 {
-    public partial class FrmLogin : Form
+    public partial class FrmPacientes : Form
     {
-        public FrmLogin()
+        public FrmPacientes()
         {
             InitializeComponent();
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            FrmMenu menu = new FrmMenu();
-            menu.Show();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PPT.Formularios
 {
-    partial class FrmLogin
+    partial class FrmPacientes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnLogin
-            // 
-            this.btnLogin.Location = new System.Drawing.Point(27, 35);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
-            this.btnLogin.TabIndex = 0;
-            this.btnLogin.Text = "Aceptar";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // FrmLogin
+            // FrmPacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 253);
-            this.Controls.Add(this.btnLogin);
-            this.Name = "FrmLogin";
-            this.Text = "FrmLogin";
+            this.Name = "FrmPacientes";
+            this.Text = "FrmPacientes";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnLogin;
     }
 }

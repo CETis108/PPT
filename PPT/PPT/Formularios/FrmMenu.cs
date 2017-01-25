@@ -15,5 +15,12 @@ namespace PPT.Formularios
         {
             InitializeComponent();
         }
+
+        private void btnPacientes_Click(object sender, EventArgs e)
+        {
+            FrmPacientes pacientes = new FrmPacientes();
+            pacientes.MdiParent = this;
+            pacientes.Show();
+        }
     }
 }
